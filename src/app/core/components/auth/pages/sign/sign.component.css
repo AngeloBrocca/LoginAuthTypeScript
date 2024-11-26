@@ -1,0 +1,39 @@
+@import url(../../../../../../css/_variables.css)
+
+:host {
+    display: block;
+}
+
+:host form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+:host form,
+:host form label,
+:host form input {
+    width: 100%;
+}
+
+:host form label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid var(--preto);
+
+    svg{
+        width: 30px;
+    }
+}
+
+:host form input{
+    height: 50px;
+    border: none;
+    font-size: 18px;
+}
+
+:host form input::placeholder {
+    color: var(--preto);
+}

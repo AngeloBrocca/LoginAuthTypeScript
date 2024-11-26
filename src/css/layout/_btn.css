@@ -1,0 +1,26 @@
+.btn-red{
+    width: 100%;
+    height: 60px;
+    margin: 25px 0 0;
+    border-radius: 10px;
+    background: var(--vermelho);
+    color: var(--branco);
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.btn-red:disabled {
+    cursor: no-drop;
+}
+
+/* .btn-red:disabled::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: black; 
+    opacity: 0.2; 
+    border-radius: inherit
+} */
